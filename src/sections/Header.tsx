@@ -5,12 +5,12 @@ export const Header = () => {
         <a href="#" className="nav-item">
           Home
         </a>
-        <a href="#" className="nav-item">
+        {/* <a href="#" className="nav-item">
           About
         </a>
         <a href="#" className="nav-item">
           Projects
-        </a>
+        </a> */}
         <a
           href="#"
           className="nav-item bg-black text-white hover:bg-black/70 hover:text-white"
