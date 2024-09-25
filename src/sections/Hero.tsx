@@ -1,5 +1,6 @@
 import Image from "next/image";
-import memojiImage from "@/assets/images/plain-me.jpg";
+import memojiImage from "@/assets/images/memoji-computer.png";
+import memojiImage2 from "@/assets/images/plain-me.jpg";
 import ArrowDown from "@/assets/icons/arrow-down.svg";
 import grainImage from "@/assets/images/grain.jpg";
 import StarIcon from "@/assets/icons/star.svg";
@@ -25,7 +26,7 @@ export const HeroSection = () => {
       <div className="container">
         <div className="flex flex-col items-center gap-5">
           <Image
-            src={memojiImage}
+            src={memojiImage2}
             alt="My picture"
             className="size-[200px] object-cover rounded-full grayscale-[90%] scale-110"
           />
@@ -46,7 +47,12 @@ export const HeroSection = () => {
         <div className="flex flex-col md:flex-row justify-center items-center mt-8 gap-4">
           <Link href="https://github.com/Matthewokiemute" target="_blank" className="inline-flex items-center gap-2 border border-black/15 px-6 h-12 rounded-xl">
             <span className="font-semibold">Explore My Work</span>
-            <ArrowDown className="size-4" />
+            {/* <ArrowDown className="size-4" /> */}
+            <Image
+            src={memojiImage}
+            alt="My picture"
+            className="size-[24px] object-cover rounded-full grayscale-[90%] scale-110"
+          />
           </Link>
           <Link href="https://x.com/kodenigga" target="_blank" className="text-gray-400 h-12 px-6 inline-flex items-center bg-black rounded-xl gap-2 border border-black">
             <span className="font-semibold">👋</span>
