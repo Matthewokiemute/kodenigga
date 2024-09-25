@@ -4,10 +4,11 @@ import ArrowDown from "@/assets/icons/arrow-down.svg";
 import grainImage from "@/assets/images/grain.jpg";
 import StarIcon from "@/assets/icons/star.svg";
 import HeroOrbit from "@/components/HeroOrbit";
+import Link from "next/link";
 
 export const HeroSection = () => {
   return (
-    <div className="py-32 md:py-40 lg:py-50 relative overflow-x-clip">
+    <div className="py-32 md:py-40 lg:py-40 relative overflow-x-clip">
       <div
         className="absolute inset-0 -z-30 opacity-5"
         style={{
@@ -18,7 +19,7 @@ export const HeroSection = () => {
       <div className="size-[1200px] hero-ring"></div>
       <div className="size-[900px] hero-ring"></div>
       <div className="size-[680px] hero-ring"></div>
-      <HeroOrbit size={800} rotation={45}>
+      <HeroOrbit size={800} rotation={5}>
         <StarIcon className="size-20" />
       </HeroOrbit>
       <div className="container">
@@ -43,14 +44,14 @@ export const HeroSection = () => {
           </p>
         </div>
         <div className="flex flex-col md:flex-row justify-center items-center mt-8 gap-4">
-          <button className="inline-flex items-center gap-2 border border-black/15 px-6 h-12 rounded-xl">
+          <Link href="https://github.com/Matthewokiemute" className="inline-flex items-center gap-2 border border-black/15 px-6 h-12 rounded-xl">
             <span className="font-semibold">Explore My Work</span>
             <ArrowDown className="size-4" />
-          </button>
-          <button className="text-gray-400 h-12 px-6 inline-flex items-center bg-black rounded-xl gap-2 border border-black">
+          </Link>
+          <Link href="https://x.com/kodenigga" className="text-gray-400 h-12 px-6 inline-flex items-center bg-black rounded-xl gap-2 border border-black">
             <span className="font-semibold">👋</span>
             <span className="font-semibold">Let&apos;s Connect</span>
-          </button>
+          </Link>
         </div>
       </div>
     </div>
