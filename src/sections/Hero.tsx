@@ -30,7 +30,7 @@ export const HeroSection = () => {
             className="size-[200px] object-cover rounded-full grayscale-[90%] scale-110"
           />
           <div className="bg-black border border-white px-4 py-1.5 inline-flex items-center gap-2 rounded-lg">
-            <div className="bg-white size-2.5 animate-pulse rounded-full"></div>
+            <div className="bg-green-500 size-2.5 animate-pulse rounded-full"></div>
             <div className="text-sm text-white">Available for new projects</div>
           </div>
         </div>
@@ -50,7 +50,7 @@ export const HeroSection = () => {
           </Link>
           <Link href="https://x.com/kodenigga" target="_blank" className="text-gray-400 h-12 px-6 inline-flex items-center bg-black rounded-xl gap-2 border border-black">
             <span className="font-semibold">👋</span>
-            <span className="font-semibold">Let&apos;s Connect</span>
+            <span className="font-semibold">Let&apos;s Work</span>
           </Link>
         </div>
       </div>
