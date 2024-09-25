@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    .nav-item {
+        @apply px-4 py-1.5 rounded-full text-gray-900/70 text-sm font-semibold transition duration-500 ease-in-out hover:bg-gray-800/10 hover:text-gray-900;
+    }
+
+    .hero-ring {
+        @apply absolute inset-0 border-2 top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 rounded-full border-gray-100 shadow-[0_0_80px_inset] shadow-gray-100 -z-20;
+    }
+}
