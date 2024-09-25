@@ -23,9 +23,6 @@ export const HeroSection = () => {
       <HeroOrbit size={800} rotation={5}>
         <StarIcon className="size-20" />
       </HeroOrbit>
-      <HeroOrbit size={35} rotation={-40}>
-        <StarIcon className="size-6" />
-      </HeroOrbit>
       <div className="container">
         <div className="flex flex-col items-center gap-5">
           <Image
