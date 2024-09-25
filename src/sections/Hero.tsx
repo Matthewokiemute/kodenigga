@@ -44,11 +44,11 @@ export const HeroSection = () => {
           </p>
         </div>
         <div className="flex flex-col md:flex-row justify-center items-center mt-8 gap-4">
-          <Link href="https://github.com/Matthewokiemute" className="inline-flex items-center gap-2 border border-black/15 px-6 h-12 rounded-xl">
+          <Link href="https://github.com/Matthewokiemute" target="_blank" className="inline-flex items-center gap-2 border border-black/15 px-6 h-12 rounded-xl">
             <span className="font-semibold">Explore My Work</span>
             <ArrowDown className="size-4" />
           </Link>
-          <Link href="https://x.com/kodenigga" className="text-gray-400 h-12 px-6 inline-flex items-center bg-black rounded-xl gap-2 border border-black">
+          <Link href="https://x.com/kodenigga" target="_blank" className="text-gray-400 h-12 px-6 inline-flex items-center bg-black rounded-xl gap-2 border border-black">
             <span className="font-semibold">👋</span>
             <span className="font-semibold">Let&apos;s Connect</span>
           </Link>

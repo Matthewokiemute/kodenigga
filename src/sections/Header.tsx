@@ -12,7 +12,8 @@ export const Header = () => {
           Projects
         </a> */}
         <a
-          href="#"
+          href="https://wa.me/+23459680186"
+          target="_blank"
           className="nav-item bg-black text-white hover:bg-black/70 hover:text-white"
         >
           Contact
